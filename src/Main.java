@@ -1,5 +1,9 @@
+import model.Student;
+import view.StudentView;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        StudentView studentView = new StudentView();
+        studentView.menuStudent();
     }
 }
